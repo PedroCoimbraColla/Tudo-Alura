@@ -1,0 +1,14 @@
+hr{
+    margin: 0;
+}
+
+.Rodape{
+    color: black;
+    background-color: var(--cor-branco);
+    padding: 1em;
+}
+
+.Rodape_Titulo{
+    font-size: 16px;
+    
+}
