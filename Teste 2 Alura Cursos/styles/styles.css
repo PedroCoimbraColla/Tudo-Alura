@@ -5,20 +5,44 @@
     background: rgb(230, 221, 204);
 
     --font-princiapl: "Poppins";
+    --fonte-secundario: "Josefin Sans";
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
 
 .cabecalho_Titulo{
     font-weight: 900;
     font-size: 36px;
     font-family: var(--fonte-secundaria);
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
     padding: 1em;
 }
 
-.cabecalho__menu{
-    display: flex;
-   
+.Box{
+    background: rgb(170, 170, 170);
+    color: var(--branco);
+    text-align: center;
+    margin: 0 5em;
+    padding: 5em;
+}
+
+.Banner_Titulo{
+    font: var(--font-princiapl);
+    font-size: 50px;
+    font-weight: 800;
 }
